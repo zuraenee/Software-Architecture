@@ -1,7 +1,7 @@
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 
-public class lab2_exA_task01 {
+public class DateTimeFormatter {
     public static void main(String[] args) {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDateTime now = LocalDateTime.now();
